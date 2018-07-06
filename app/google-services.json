@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "632835020267",
+    "firebase_url": "https://chinkara-c947c.firebaseio.com",
+    "project_id": "chinkara-c947c",
+    "storage_bucket": "chinkara-c947c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632835020267:android:b6bc89004cdea9f7",
+        "android_client_info": {
+          "package_name": "com.ravindra.siit.chinkara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632835020267-2uu3qlhbprndrl39flaps2csrlm1s9t2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ravindra.siit.chinkara",
+            "certificate_hash": "6309076ce503388389fcedbd66281196a5ae471f"
+          }
+        },
+        {
+          "client_id": "632835020267-gqporv3mu8gh26d3h744mlvqc8aam46s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "632835020267-gqporv3mu8gh26d3h744mlvqc8aam46s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7RhDq-WVAsFgU-EN7tKSjgvyix-nYodY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632835020267-gqporv3mu8gh26d3h744mlvqc8aam46s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

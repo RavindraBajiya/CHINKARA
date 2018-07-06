@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColor">#fddcc9</color>
+    <color name="navColor">#4815ae</color>
+    <color name="textColorb">#181717</color>
+    <color name="notAnswered">#f8e71f</color>
+    <color name="answered">#417507</color>
+    <color name="notVisited">#d7d9db</color>
+    <color name="backgroundColor">#9996ab</color>
+    <color name="ansColor">#979797</color>
+    <color name="correctAns">#c5d62a</color>
+    <color name="wrongAns">#ff0000</color>
+    <color name="cardview_dark_background">#FF424242</color>
+    <color name="result_row_color">#ffffff</color>
+    <color name="result_row_color2">#ffffff</color>
+    <color name="buttonColor1">#99a8b7</color>
+    <color name="buttonColor2">#adc695</color>
+    <color name="editcolor">#ffffff</color>
+</resources>

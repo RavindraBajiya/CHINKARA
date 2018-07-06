@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/constraintLayoutResultRow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Option1"
+            android:textSize="@dimen/result_text_list_o"
+            app:layout_constraintBottom_toTopOf="@+id/option2"
+            app:layout_constraintEnd_toEndOf="@+id/questionTV"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="@+id/questionTV"
+            app:layout_constraintTop_toBottomOf="@+id/questionTV" />
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="Option2"
+            android:textSize="@dimen/result_text_list_o"
+            app:layout_constraintBottom_toTopOf="@+id/option3"
+            app:layout_constraintStart_toStartOf="@+id/option1"
+            app:layout_constraintTop_toBottomOf="@+id/option1" />
+
+        <TextView
+            android:id="@+id/questionTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Question"
+            android:textColor="@color/textColorb"
+            android:textSize="@dimen/result_text_list_q"
+            app:layout_constraintBottom_toTopOf="@+id/option1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option3"
+            android:textSize="@dimen/result_text_list_o"
+            app:layout_constraintBottom_toTopOf="@+id/option4"
+            app:layout_constraintStart_toStartOf="@+id/option2"
+            app:layout_constraintTop_toBottomOf="@+id/option2" />
+
+        <TextView
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Option4"
+            android:textSize="@dimen/result_text_list_o"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/option3"
+            app:layout_constraintTop_toBottomOf="@+id/option3" />
+
+        <ImageView
+            android:id="@+id/c_o_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option1"
+            app:layout_constraintStart_toEndOf="@+id/option1"
+            app:layout_constraintTop_toTopOf="@+id/option1"
+            app:srcCompat="@drawable/correct_ans" />
+
+        <ImageView
+            android:id="@+id/c_o_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option2"
+            app:layout_constraintStart_toEndOf="@+id/option2"
+            app:layout_constraintTop_toTopOf="@+id/option2"
+            app:srcCompat="@drawable/correct_ans" />
+
+        <ImageView
+            android:id="@+id/c_o_3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option3"
+            app:layout_constraintStart_toEndOf="@+id/option3"
+            app:layout_constraintTop_toTopOf="@+id/option3"
+            app:srcCompat="@drawable/correct_ans" />
+
+        <ImageView
+            android:id="@+id/c_o_4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option4"
+            app:layout_constraintStart_toEndOf="@+id/option4"
+            app:layout_constraintTop_toTopOf="@+id/option4"
+            app:srcCompat="@drawable/correct_ans" />
+
+        <ImageView
+            android:id="@+id/w_o_1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option1"
+            app:layout_constraintStart_toEndOf="@+id/option1"
+            app:layout_constraintTop_toTopOf="@+id/option1"
+            app:srcCompat="@drawable/wrong_ans" />
+
+        <ImageView
+            android:id="@+id/w_o_4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option4"
+            app:layout_constraintStart_toEndOf="@+id/c_o_4"
+            app:layout_constraintTop_toTopOf="@+id/option4"
+            app:srcCompat="@drawable/wrong_ans" />
+
+        <ImageView
+            android:id="@+id/w_o_2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option2"
+            app:layout_constraintStart_toEndOf="@+id/option2"
+            app:layout_constraintTop_toTopOf="@+id/option2"
+            app:srcCompat="@drawable/wrong_ans" />
+
+        <ImageView
+            android:id="@+id/w_o_3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/option3"
+            app:layout_constraintStart_toEndOf="@+id/c_o_3"
+            app:layout_constraintTop_toTopOf="@+id/option3"
+            app:srcCompat="@drawable/wrong_ans" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/firstsplash"
+    tools:context=".Syllabus">
+
+  <!--  <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline43"
+        app:layout_constraintEnd_toStartOf="@+id/guideline40"
+        app:layout_constraintStart_toStartOf="@+id/guideline41">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:background="@drawable/round_bac_img">
+
+            <Button
+                android:id="@+id/syllabusAirForce"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="airForceBtn"
+                android:paddingLeft="@dimen/btn_height"
+                android:paddingRight="@dimen/btn_height"
+                android:text="Air Force"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusXGroup"
+                app:layout_constraintEnd_toStartOf="@+id/guideline45"
+                app:layout_constraintStart_toStartOf="@+id/guideline44"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/syllabusXGroup"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="xGroupAir"
+                android:paddingLeft="@dimen/text_size_default"
+                android:paddingRight="@dimen/text_size_default"
+                android:text="x group"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusNavy"
+                app:layout_constraintEnd_toStartOf="@+id/guideline47"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/guideline48"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusAirForce" />
+
+            <Button
+                android:id="@+id/syllabusYGroup"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="yGroupAir"
+                android:paddingLeft="@dimen/text_size_default"
+                android:paddingRight="@dimen/text_size_default"
+                android:text="Y group"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/syllabusXGroup"
+                app:layout_constraintEnd_toStartOf="@+id/guideline46"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/guideline49"
+                app:layout_constraintTop_toTopOf="@+id/syllabusXGroup" />
+
+            <Button
+                android:id="@+id/syllabusNavy"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="navyBtn"
+                android:paddingLeft="@dimen/btn_height"
+                android:paddingRight="@dimen/btn_height"
+                android:text="Navy"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusAA"
+                app:layout_constraintEnd_toEndOf="@+id/syllabusAirForce"
+                app:layout_constraintStart_toStartOf="@+id/syllabusAirForce"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusXGroup" />
+
+            <Button
+                android:id="@+id/syllabusAA"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/btn_back"
+                android:onClick="aANavy"
+                android:paddingLeft="@dimen/text_size_default"
+                android:paddingRight="@dimen/text_size_default"
+                android:text="AA"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusNDA"
+                app:layout_constraintEnd_toStartOf="@+id/guideline47"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/guideline48"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusNavy" />
+
+            <Button
+                android:id="@+id/syllabusSSR"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="sSRNavy"
+                android:paddingLeft="@dimen/text_size_default"
+                android:paddingRight="@dimen/text_size_default"
+                android:text="ssr"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/syllabusAA"
+                app:layout_constraintEnd_toStartOf="@+id/guideline46"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/guideline49"
+                app:layout_constraintTop_toTopOf="@+id/syllabusAA" />
+
+            <Button
+                android:id="@+id/syllabusNDA"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="ndaBtn"
+                android:paddingLeft="@dimen/btn_height"
+                android:paddingRight="@dimen/btn_height"
+                android:text="NDA"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusArmy"
+                app:layout_constraintEnd_toEndOf="@+id/syllabusNavy"
+                app:layout_constraintStart_toStartOf="@+id/syllabusNavy"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusAA" />
+
+            <Button
+                android:id="@+id/syllabusArmy"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="armyBtn"
+                android:paddingLeft="@dimen/btn_height"
+                android:paddingRight="@dimen/btn_height"
+                android:text="Army"
+                app:layout_constraintBottom_toTopOf="@+id/syllabusPolice"
+                app:layout_constraintEnd_toEndOf="@+id/syllabusNDA"
+                app:layout_constraintStart_toStartOf="@+id/syllabusNDA"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusNDA" />
+
+            <Button
+                android:id="@+id/syllabusPolice"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_height"
+                android:background="@drawable/btn_back"
+                android:onClick="policeBtn"
+                android:paddingLeft="@dimen/btn_height"
+                android:paddingRight="@dimen/btn_height"
+                android:text="police"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/syllabusArmy"
+                app:layout_constraintStart_toStartOf="@+id/syllabusArmy"
+                app:layout_constraintTop_toBottomOf="@+id/syllabusArmy" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.25" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.75" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.875" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.45" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.125" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.55" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>-->
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/round_bac_img"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toTopOf="@+id/guideline43"
+        app:layout_constraintEnd_toStartOf="@+id/guideline40"
+        app:layout_constraintStart_toStartOf="@+id/guideline41"
+        app:layout_constraintTop_toTopOf="@+id/guideline42">
+
+        <GridView
+            android:id="@+id/syllabusGrid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:horizontalSpacing="10px"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

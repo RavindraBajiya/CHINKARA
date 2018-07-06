@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">चिंकारा</string>
+    <string name="title_activity_exam_page_drawer">ExamPageDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="finish">Finish</string>
+    <string name="time">Time</string>
+    <string name="save_next"><![CDATA[Save & Next]]></string>
+    <string name="title_activity_exam_page_drower">Mock Test</string>
+    <string name="title_activity_online_exam_page_drower">Online Exam</string>
+    <string name="onlineTextMsg">Currently Not Available</string>
+    <string-array name="menus">
+        <item>Mock Test</item>
+        <item>Online Test</item>
+        <item>Syllabus</item>
+        <item>My Profile</item>
+        <item>Notification</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="menu_icons">
+        <item>&#xf044;</item>
+        <item>&#xf19d;</item>
+        <item>&#xf1c1;</item>
+        <item>&#xf007;</item>
+        <item>&#xf0f3;</item>
+        <item>&#xf08b;</item>
+    </string-array>
+    <string-array name="resultItems">
+        <item>Total Questions</item>
+        <item>Attempt Questions</item>
+        <item>Right Questions</item>
+        <item>Wrong Questions</item>
+        <item>Positive Marking</item>
+        <item>Negative Marking</item>
+        <item>Total Marks</item>
+        <item>Overall Result</item>
+    </string-array>
+    <string name="icon_heart">&#xf0ae;</string>
+    <string name="noti_icon">&#xf0f3;</string>
+</resources>
